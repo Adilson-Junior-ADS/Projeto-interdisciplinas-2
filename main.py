@@ -22,7 +22,7 @@ som.set_volume(0.05)
 fonte = pygame.font.SysFont('arial', 50)
 
 marcial_lista = [pygame.image.load("imagens/marcial/Idle.png"),
-               pygame.image.load("imagens/marcial/Jump.png"),
+                 pygame.image.load("imagens/marcial/Jump.png"),
                  pygame.image.load("imagens/marcial/Run.png"),
                  pygame.image.load("imagens/marcial/Attack2.png")]
 
@@ -93,4 +93,3 @@ while jogando:
     pygame.display.update()
 
 pygame.quit()
-
